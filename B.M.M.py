@@ -1,4 +1,3 @@
-
 Num1 = int(input())
 Num2 = int(input())
 
@@ -14,9 +13,5 @@ else:
 for i in range(1,Num3+1):
     if Num1 % i == 0 and Num2 % i == 0:
         A.append(i)
-
-
-print(max(A))
-
-
-
+        
+print(A[len(A) - 1])
